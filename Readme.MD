@@ -1,4 +1,7 @@
-﻿-- Packages
+﻿# Testes Automatizado com selenium
+Um Exemplo de testes automatizados, utilizando o selenium.
 
-https://www.nuget.org/packages/Selenium.WebDriver
-https://www.nuget.org/packages/Selenium.Support
+## Pattern for selenium
+> Page Object Model (POM) 
+
+> AAA (Arrange, Act, Assert)

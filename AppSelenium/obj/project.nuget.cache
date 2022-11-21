@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/tyMLBkuez+dMVxtkcZjviiFrkqX3cYofkT59lpInzDVm9y1g9thlK2Jt7avKACY4DkJ4BYpB5PmIB2dED9dZw==",
+  "dgSpecHash": "2rtyE1+LDeZRfXa9Qsb5i44rXELopj2pPB7d91AW4V+jUw2EaTyQefoAUgUG/bVQIsuba0CL03Oj6kppq6F6EQ==",
   "success": true,
-  "projectFilePath": "C:\\aula\\AppSelenium\\AppSelenium\\AppSelenium.csproj",
+  "projectFilePath": "c:\\aula\\AppSelenium\\AppSelenium\\AppSelenium.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deybson.ferreira\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\deybson.ferreira\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

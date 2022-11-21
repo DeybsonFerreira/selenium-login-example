@@ -6426,11 +6426,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\aula\\AppSelenium\\SeleniumTest\\SeleniumTest.csproj",
+      "projectUniqueName": "c:\\aula\\AppSelenium\\SeleniumTest\\SeleniumTest.csproj",
       "projectName": "SeleniumTest",
-      "projectPath": "C:\\aula\\AppSelenium\\SeleniumTest\\SeleniumTest.csproj",
+      "projectPath": "c:\\aula\\AppSelenium\\SeleniumTest\\SeleniumTest.csproj",
       "packagesPath": "C:\\Users\\deybson.ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\aula\\AppSelenium\\SeleniumTest\\obj\\",
+      "outputPath": "c:\\aula\\AppSelenium\\SeleniumTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deybson.ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6447,8 +6447,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\aula\\AppSelenium\\AppSelenium\\AppSelenium.csproj": {
-              "projectPath": "C:\\aula\\AppSelenium\\AppSelenium\\AppSelenium.csproj"
+            "c:\\aula\\AppSelenium\\AppSelenium\\AppSelenium.csproj": {
+              "projectPath": "c:\\aula\\AppSelenium\\AppSelenium\\AppSelenium.csproj"
             }
           }
         }

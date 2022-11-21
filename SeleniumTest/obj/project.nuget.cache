@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OvpNdO3UkG47DBBMJCzDodvmT+9cnyoEAMOGFcvu9YON/GV8Pmtn64CpGJFniZxzW7R+g3sG3ZyVFQ1a/HlFXQ==",
+  "dgSpecHash": "EmlJBSu0/DqtS6zhXihwlAwfi1Y48o1JxqKYALu9lc/2uAE3XyfuLdUDSaxpxomtyu122emaCje8Gn5PAxjijA==",
   "success": true,
-  "projectFilePath": "C:\\aula\\AppSelenium\\SeleniumTest\\SeleniumTest.csproj",
+  "projectFilePath": "c:\\aula\\AppSelenium\\SeleniumTest\\SeleniumTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deybson.ferreira\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\deybson.ferreira\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
