@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <div class="loginPage">
+
+        <div class="card login-form px-3 py-3">
+            <div class="card-body">
+                <h3 class="card-title text-center">Login</h3>
+                <div class="card-text">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="usernameInput"> <span class="text-danger">*</span> Username</label>
+                                <input placeholder="admin" type="text" class="form-control form-control-sm" id="usernameInput">
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="passwordInput"> <span class="text-danger">*</span> Password</label>
+                                <input placeholder="admin" type="password" class="form-control form-control-sm" id="passwordInput">
+                                <a href="#" style="float:right;font-size:12px;">Esqueceu sua senha?</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <button id="btnLogin" type="button" onclick="btnEntrar()" class="btn col-12 btn-primary mt-2 mb-3">Entrar</button>
+                        </div>
+
+                        <div class="alert" role="alert">
+                            <span class="text-center" id="alertMessage"></span>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="sign-up text-muted">
+                                Não tem uma conta? <a href="#">Criar nova conta</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<style>
+    .loginPage {
+        background: #2C11DE;
+        background: -webkit-linear-gradient(top left, #2C11DE, #E98DBC);
+        background: -moz-linear-gradient(top left, #2C11DE, #E98DBC);
+        background: linear-gradient(to bottom right, #2C11DE, #E98DBC);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+    }
+
+    .card {
+        width: 25vw;
+    }
+
+    .card-title {
+        font-weight: 300;
+    }
+</style>
+
+<script>
+
+    function btnEntrar() {
+
+        //variables
+        let username = $("#usernameInput")?.val();
+        let password = $("#passwordInput")?.val();
+        let alertElem = $(".alert");
+        let alertMessage = $("#alertMessage");
+
+        //clear
+        alertMessage.text('');
+        alertMessage.removeClass("alert-success").removeClass("alert-danger");
+
+        //validation
+        if (username && password) {
+            let isValid = username == 'admin' && password == 'admin';
+            if (isValid) {
+                alertElem.addClass('alert-success');
+                alertMessage.text('Usuário correto!');
+            } else {
+                alertElem.addClass('alert-danger');
+                alertMessage.text('Usuário incorreto!');
+            }
+        } else {
+            alertElem.addClass('alert-danger');
+            alertMessage.text('Informe os dados obrigatórios!');
+        }
+    }
+
+</script>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AppSelenium</id>
+    <version>1.0.0</version>
+    <authors>AppSelenium</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="DotNetSeleniumExtras.WaitHelpers" version="3.11.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.Support" version="4.6.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver" version="4.6.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\aula\AppSelenium\AppSelenium\bin\Debug\net6.0\AppSelenium.dll" target="lib\net6.0\AppSelenium.dll" />
+  </files>
+</package>

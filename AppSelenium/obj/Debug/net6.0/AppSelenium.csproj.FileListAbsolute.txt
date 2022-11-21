@@ -1,0 +1,16 @@
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\AppSelenium.csproj.AssemblyReference.cache
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\AppSelenium.GeneratedMSBuildEditorConfig.editorconfig
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\AppSelenium.AssemblyInfoInputs.cache
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\AppSelenium.AssemblyInfo.cs
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\AppSelenium.csproj.CoreCompileInputs.cache
+C:\aula\AppSelenium\AppSelenium\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\aula\AppSelenium\AppSelenium\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\aula\AppSelenium\AppSelenium\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\aula\AppSelenium\AppSelenium\bin\Debug\net6.0\AppSelenium.deps.json
+C:\aula\AppSelenium\AppSelenium\bin\Debug\net6.0\AppSelenium.dll
+C:\aula\AppSelenium\AppSelenium\bin\Debug\net6.0\AppSelenium.pdb
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\AppSelenium.dll
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\refint\AppSelenium.dll
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\AppSelenium.pdb
+C:\aula\AppSelenium\AppSelenium\obj\Debug\net6.0\ref\AppSelenium.dll
+C:\aula\AppSelenium\AppSelenium\bin\Debug\net6.0\appsettings.json
